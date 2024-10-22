@@ -425,7 +425,7 @@ h2{
 }
 
 /* Django Skill Bar */
-.djangoproject-skill {
+.django-skill {
     width: 0;
     background-color: #2E073F;
     animation: djangoSkill 3s forwards;
@@ -439,7 +439,7 @@ h2{
 .mongo-skill {
   width: 0;
   background-color:#2E073F;
-  animation: sqlSkill 2.3s forwards;
+  animation: mongoskill 2.3s forwards;
 }
 
 @keyframes mongoskill {
