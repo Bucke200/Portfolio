@@ -24,7 +24,27 @@ function openNav() {
       }
     });
   });
-  
+  window.addEventListener('scroll', () => {
+    const skillsSection = document.getElementById('skills');
+    const htmlSkill = document.querySelector('.html-skill');
+    const cssSkill = document.querySelector('.css-skill');
+    const jsSkill = document.querySelector('.js-skill');
+    const javaSkill = document.querySelector('.java-skill');
+    const pythonSkill = document.querySelector('.python-skill');
+    const sqlSkill = document.querySelector('.sql-skill');
+    const djangoSkill = document.querySelector('.django-skill');
+
+    if (skillsSection.getBoundingClientRect().top < window.innerHeight) {
+        htmlSkill.style.width = '90%';
+        cssSkill.style.width = '85%';
+        jsSkill.style.width = '75%';
+        javaSkill.style.width = '80%';
+        pythonSkill.style.width = '88%';
+        sqlSkill.style.width = '70%';
+        djangoSkill.style.width = '78%';
+    }
+});
+
   // Change the speed to whatever you want
   // Personally i think 1000 is too much
   // Try 800 or below, it seems not too much but it will make a difference
