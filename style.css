@@ -35,7 +35,7 @@ body {
   #welcome {
     font-family: my font;
     color: white;
-    background: url("/p1/images2/design-attractive-wallpaper-for-desktop-and-mobile-in-8k.jpg");
+    background: url("design-attractive-wallpaper-for-desktop-and-mobile-in-8k.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -75,7 +75,7 @@ body {
   /* ABOUT */
   
   #about {
-    background: url("/p1/images2/design-attractive-wallpaper-for-desktop-and-mobile-in-8k.jpg");
+    background: url("design-attractive-wallpaper-for-desktop-and-mobile-in-8k.jpg");
     padding: 5% 5% 5% 5%;
     height: 100vh;
     width: auto;
@@ -299,7 +299,7 @@ h2{
 }
 #skills {
     padding: 50px;
-    background: url("/p1/images2/design-attractive-wallpaper-for-desktop-and-mobile-in-8k.jpg");
+    background: url("design-attractive-wallpaper-for-desktop-and-mobile-in-8k.jpg");
     text-align: center;
 }
 
