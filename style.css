@@ -416,7 +416,7 @@ h2{
 .Springboot-skill {
     width: 0;
     background-color:#2E073F;
-    animation: sqlSkill 2.3s forwards;
+    animation: SpringbootSkill 2.3s forwards;
 }
 
 @keyframes SpringbootSkill {
