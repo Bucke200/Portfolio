@@ -551,14 +551,14 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-  background-image: url("/projectsQUES/slider/images/astonaut.jpeg");
+  background-image: url("astonaut.jpeg");
 }
 .card[for="c2"] {
-  background-image: url("/projectsQUES/slider/images/des.png");
+  background-image: url("des.png");
 }
 .card[for="c3"] {
-  background-image: url("/projectsQUES/slider/images/manage.png");
+  background-image: url("manage.png");
 }
 .card[for="c4"] {
-  background-image: url("/projectsQUES/slider/images/secure.jpeg");
+  background-image: url("secure.jpeg");
 }
