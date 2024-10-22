@@ -412,14 +412,14 @@ h2{
     to { width: 70%; }
 }
 
-/* SQL Skill Bar */
-.sql-skill {
+/* Springboot Skill Bar */
+.Springboot-skill {
     width: 0;
     background-color:#2E073F;
     animation: sqlSkill 2.3s forwards;
 }
 
-@keyframes sqlSkill {
+@keyframes SpringbootSkill {
     from { width: 0; }
     to { width: 60%; }
 }
@@ -435,7 +435,7 @@ h2{
     from { width: 0; }
     to { width: 50%; }
 }
-/* SQL Skill Bar */
+/* mongo Skill Bar */
 .mongo-skill {
   width: 0;
   background-color:#2E073F;
